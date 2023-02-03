@@ -1,23 +1,38 @@
-export const projetcs = [
+export const projects = [
   {
     id: "project-1",
     imgUrl: "/banner_1.jpeg",
-    title: "Botkassa",
+    title: "Botkassa.no",
+    description:
+      "Botkassa is an webapplication created to manage fines and payments for the soccer team Søndre Høland IL. It supports card, Vipps and manual payments.",
   },
   {
     id: "project-2",
     imgUrl: "/banner_1.jpeg",
     title: "Personal budget",
+    description:
+      "The personal budget is a web application that helps you manage your finances. It is created to be as simple and easy to use as possible while having all the features you need.",
   },
   {
     id: "project-3",
     imgUrl: "/banner_1.jpeg",
-    title: "Fireweb",
+    title: "Fireweb.no",
+    description:
+      "Fireweb is an application created to keep track of the the missions I have been on as a volunteer firefighter. You can create users, firestations, fire departments and missions.",
   },
   {
     id: "project-4",
-    imgUrl: "/banner_1.jpeg",
+    imgUrl: "/banner_3.png",
     title: "Personal website",
+    description:
+      "This is the very site that you are looking at right now. It is created using Next.js and TailwindCSS and is hosted on Vercel. This is a projects I am working on to learn more about web development.",
+  },
+  {
+    id: "project-5",
+    imgUrl: "/banner_2.png",
+    title: "CAVT Portal",
+    description:
+      "The CAVT Portal is a web application created for Intility AS. The project is created with React and Typescript with Django and Django Rest Framework as backend. The portal is hosted in our own datacenter. The portal imports devices, users, companies and locations from several sources and binds it all toghter before presenting it to the users. Many features like autoscanning of incoming tickets, implementation and documentation is built in.",
   },
 ];
 
