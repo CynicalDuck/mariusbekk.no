@@ -39,6 +39,14 @@ export const projects = [
       "The CAVT Portal is a web application created for Intility AS. The project is created with React and Typescript with Django and Django Rest Framework as backend. The portal is hosted in our own datacenter. The portal imports devices, users, companies and locations from several sources and binds it all toghter before presenting it to the users. Many features like autoscanning of incoming tickets, implementation and documentation are built in.",
     barPercentage: 60,
   },
+  {
+    id: "project-6",
+    imgUrl: "/banner_1.jpeg",
+    title: "Vålerenga på Nett",
+    description:
+      "VPN is a blog and web forum created for Vålerenga på nett. The project is created using React, Framer Motion and TailwindCSS for the frontend and Appwrite for the backend. The frontend is hosted at Vercel",
+    barPercentage: 1,
+  },
 ];
 
 export const socials = [
