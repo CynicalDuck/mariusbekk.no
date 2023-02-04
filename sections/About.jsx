@@ -29,12 +29,15 @@ const About = () => (
       >
         My name is Marius Bekk and I am a full-stack developer. I have been
         working with web development for about 3 years now and I am currently
-        working as a full-stack developer at Intility AS. I have a passion for
-        web development and I am always looking for new challenges and
-        opportunities to learn new things. This page is created in with NextJS,
-        TailwindCSS and Framer Motion as a project to learn more about these
-        technologies. <br /> <br />I am also working as a local part-time
-        firefighter in my hometown and are active as a soccer player.
+        working as a full time at Intility AS. I have a passion for web
+        development and I am always looking for new challenges and opportunities
+        to learn new things. This page is created in with NextJS, TailwindCSS
+        and Framer Motion as a project to learn more about these technologies.{" "}
+        <br /> <br />I am also working as a local part-time firefighter in my
+        hometown and are active as a soccer player.
+        <br />
+        Want to reach out? Contact me on my socials or send me an email at
+        mariusbekk@gmail.com
       </motion.p>
     </motion.div>
   </section>

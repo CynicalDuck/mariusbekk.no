@@ -22,11 +22,7 @@ const Page = () => (
     <div className="relative">
       <Projects />
       <div className="gradient-04 z-0" />
-      <WhatsNew />
     </div>
-    <World />
-    <Insights />
-    <Feedback />
     <Footer />
   </div>
 );

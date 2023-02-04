@@ -11,7 +11,7 @@ const Projects = () => {
   const [active, setActive] = useState("project-2");
 
   return (
-    <section className={`${styles.paddings}`} id="explore">
+    <section className={`${styles.paddings}`} id="projects">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

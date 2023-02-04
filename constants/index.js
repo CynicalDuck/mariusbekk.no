@@ -29,7 +29,7 @@ export const projects = [
     title: "Personal website",
     description:
       "This is the very site that you are looking at right now. It is created using Next.js and TailwindCSS and are hosted on Vercel. I am working on this project to gain knowledge about Next.js and TailwindCSS.",
-    barPercentage: 60,
+    barPercentage: 90,
   },
   {
     id: "project-5",
@@ -41,63 +41,20 @@ export const projects = [
   },
 ];
 
-export const startingFeatures = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
-];
-
-export const newFeatures = [
-  {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
-  },
-  {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
-    subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
-  },
-];
-
-export const insights = [
-  {
-    imgUrl: "/planet-06.png",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
-    subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
-  },
-  {
-    imgUrl: "/planet-07.png",
-    title: "7 tips to easily master the madness of the Metaverse",
-    subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
-  },
-  {
-    imgUrl: "/planet-08.png",
-    title: "With one platform you can explore the whole world virtually",
-    subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
-  },
-];
-
 export const socials = [
   {
     name: "twitter",
-    url: "/twitter.svg",
+    img: "/twitter.svg",
+    url: "https://twitter.com/mariusbekk",
   },
   {
     name: "linkedin",
-    url: "/linkedin.svg",
-  },
-  {
-    name: "instagram",
-    url: "/instagram.svg",
+    img: "/linkedin.svg",
+    url: "https://www.linkedin.com/in/mariusbekk/",
   },
   {
     name: "facebook",
-    url: "/facebook.svg",
+    img: "/facebook.svg",
+    url: "https://www.facebook.com/mariusbekk1/",
   },
 ];
