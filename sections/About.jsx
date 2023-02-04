@@ -16,7 +16,10 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Marius" textStyles="text-center" />
+      <TypingText
+        title="| About Marius"
+        textStyles="text-center font-semibold"
+      />
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/profile_image.jpeg"
@@ -38,6 +41,20 @@ const About = () => (
         <br />
         Want to reach out? Contact me on my socials or send me an email at
         mariusbekk@gmail.com
+      </motion.p>
+      <TypingText
+        title="| What can I offer you?"
+        textStyles="text-center mt-[50px] font-semibold"
+      />
+      <motion.p
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className="mt-10 font-normal sm:text-[20px] text-[16px] text-center text-secondary-white"
+      >
+        I am currently available for freelance work and can help you or your
+        business reach new heights. I have experience with both frontend and
+        backend development and can help you with everything from design to
+        deployment. <br /> <br />
+        Reach out to me if you need help with you website or application.
       </motion.p>
     </motion.div>
   </section>

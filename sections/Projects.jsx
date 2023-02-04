@@ -19,7 +19,10 @@ const Projects = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col place-items-center gap-4`}
       >
-        <TypingText title="| My projects" textStyles="text-center" />
+        <TypingText
+          title="| My projects"
+          textStyles="text-center font-semibold"
+        />
         <TitleText
           title={<>Have a look at my projects</>}
           textStyles="text-center"
