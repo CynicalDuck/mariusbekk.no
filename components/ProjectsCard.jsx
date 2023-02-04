@@ -35,7 +35,7 @@ const ProjectsCard = ({
             ? "Not started"
             : barPercentage > 0 && barPercentage <= 20
             ? "Planning"
-            : barPercentage > 20
+            : barPercentage > 20 && barPercentage <= 99
             ? "In progress"
             : barPercentage === 100
             ? "Done"

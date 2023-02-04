@@ -29,7 +29,7 @@ export const projects = [
     title: "Personal website",
     description:
       "This is the very site that you are looking at right now. It is created using Next.js and TailwindCSS and are hosted on Vercel. I am working on this project to gain knowledge about Next.js and TailwindCSS.",
-    barPercentage: 90,
+    barPercentage: 100,
   },
   {
     id: "project-5",
