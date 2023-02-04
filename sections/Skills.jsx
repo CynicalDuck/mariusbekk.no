@@ -25,7 +25,7 @@ const Skills = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col flex-wrap gap-4 place-items-center justify-center`}
     >
       <motion.p
-        variants={textVariant(0.1)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
         className="text-white bg-blue-800 rounded-full px-2 mt-4"
@@ -45,7 +45,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(0.3)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -56,14 +56,14 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(0.4)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
         <SkillBar title="React" barColor={"bg-react-blue"} barPercentage={70} />
       </motion.div>
       <motion.div
-        variants={textVariant(0.5)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -74,7 +74,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(0.6)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -85,7 +85,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.p
-        variants={textVariant(0.7)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
         className="text-white bg-green-800 rounded-full px-2 mt-4"
@@ -94,7 +94,7 @@ const Skills = () => (
         BACKEND
       </motion.p>
       <motion.div
-        variants={textVariant(0.8)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -105,7 +105,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(0.9)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -116,7 +116,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(1.0)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -127,7 +127,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(1.1)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -138,7 +138,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.p
-        variants={textVariant(1.2)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
         className="text-white bg-red-800 rounded-full px-2 mt-4"
@@ -147,7 +147,7 @@ const Skills = () => (
         WEBDESIGN
       </motion.p>
       <motion.div
-        variants={textVariant(1.3)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -158,7 +158,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(1.4)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -169,7 +169,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.p
-        variants={textVariant(1.5)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
         className="text-white bg-purple-800 rounded-full px-2 mt-4"
@@ -178,14 +178,14 @@ const Skills = () => (
         DEVOPS
       </motion.p>
       <motion.div
-        variants={textVariant(1.6)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
         <SkillBar title="Git" barColor={"bg-git-orange"} barPercentage={40} />
       </motion.div>
       <motion.div
-        variants={textVariant(1.7)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -196,7 +196,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(1.8)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -207,7 +207,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(1.9)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -218,7 +218,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.p
-        variants={textVariant(2.0)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
         className="text-white bg-indigo-800 rounded-full px-2 mt-4"
@@ -227,7 +227,7 @@ const Skills = () => (
         SCRIPTING
       </motion.p>
       <motion.div
-        variants={textVariant(2.1)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >
@@ -238,7 +238,7 @@ const Skills = () => (
         />
       </motion.div>
       <motion.div
-        variants={textVariant(2.2)}
+        variants={textVariant(0.2)}
         initial="hidden"
         whileInView="show"
       >

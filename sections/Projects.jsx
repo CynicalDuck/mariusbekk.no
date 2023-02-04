@@ -17,24 +17,24 @@ const Projects = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto flex flex-col place-items-center gap-4`}
       >
         <TypingText title="| My projects" textStyles="text-center" />
         <TitleText
           title={<>Have a look at my projects</>}
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {projects.map((project, index) => (
-            <ProjectsCard
-              key={project.id}
-              {...project}
-              index={index}
-              active={active}
-              handleClick={setActive}
-            />
-          ))}
-        </div>
+        {projects.map((project, index) => (
+          <ProjectsCard
+            key={project.id}
+            {...project}
+            index={index}
+            active={active}
+            barColor={"bg-javascript-yellow"}
+            barPercentage={project.barPercentage}
+            handleClick={setActive}
+          />
+        ))}
       </motion.div>
     </section>
   );
