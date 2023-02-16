@@ -7,12 +7,10 @@ const Page = () => (
     <Hero />
     <div className="relative">
       <About />
-      <div className="gradient-03 z-0" />
       <Skills />
     </div>
     <div className="relative">
       <Projects />
-      <div className="gradient-04 z-0" />
     </div>
     <Footer />
   </div>

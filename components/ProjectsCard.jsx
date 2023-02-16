@@ -1,22 +1,15 @@
 "use client";
-
-import { motion } from "framer-motion";
-
-import styles from "../styles";
 import { fadeIn } from "../utils/motion";
 
 const ProjectsCard = ({
-  id,
   imgUrl,
   title,
   index,
-  active,
-  handleClick,
   barPercentage,
   barColor,
   description,
 }) => (
-  <motion.div
+  <div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`flex flex-col place-items-center gap-4`}
   >
@@ -24,7 +17,7 @@ const ProjectsCard = ({
       <img
         src={imgUrl}
         alt={title}
-        className="w-[300px] h-[300px] rounded-[60px] object-cover"
+        className="w-[300px] h-[300px] rounded-[60px] object-content"
       />
 
       <h1 className="text-white font-semibold text-center">
@@ -53,7 +46,7 @@ const ProjectsCard = ({
         {description}
       </div>
     </div>
-  </motion.div>
+  </div>
 );
 
 export default ProjectsCard;

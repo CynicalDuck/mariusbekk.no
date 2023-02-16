@@ -4,7 +4,7 @@ export const projects = [
     imgUrl: "/banner_1.jpeg",
     title: "Botkassa.no",
     description:
-      "Botkassa is an webapplication created to manage fines and payments for the soccer team Søndre Høland IL. It supports card, Vipps and manual payments.",
+      "Botkassa.no is an application created to help sports teams keeping track of fines and payments. The project is not yet started.",
     barPercentage: 0,
   },
   {
@@ -18,9 +18,9 @@ export const projects = [
   {
     id: "project-3",
     imgUrl: "/banner_1.jpeg",
-    title: "Brannportal.no",
+    title: "Brannportal.org",
     description:
-      "Brannportal.no is an application created to keep track of the the missions I have been on as a volunteer firefighter. You can create users, firestations, fire departments and missions.",
+      "Brannportal.org is an application created to keep track of the the missions I have been on as a volunteer firefighter. You can create users, firestations, fire departments and missions.",
     barPercentage: 20,
   },
   {
@@ -28,24 +28,16 @@ export const projects = [
     imgUrl: "/banner_3.png",
     title: "Personal website",
     description:
-      "This is the very site that you are looking at right now. It is created using Next.js and TailwindCSS and are hosted on Vercel. I am working on this project to gain knowledge about Next.js and TailwindCSS.",
+      "This is the very site that you are looking at right now. It is created using Next.js and TailwindCSS and are hosted on Vercel. I am working on this project to gain knowledge about Next.js and TailwindCSS so the site might change and be a bit buggy",
     barPercentage: 100,
   },
   {
-    id: "project-5",
-    imgUrl: "/banner_2.png",
-    title: "CAVT Portal",
-    description:
-      "The CAVT Portal is a web application created for Intility AS. The project is created with React and Typescript with Django and Django Rest Framework as backend. The portal is hosted in our own datacenter. The portal imports devices, users, companies and locations from several sources and binds it all toghter before presenting it to the users. Many features like autoscanning of incoming tickets, implementation and documentation are built in.",
-    barPercentage: 60,
-  },
-  {
     id: "project-6",
-    imgUrl: "/banner_1.jpeg",
-    title: "Vålerenga på Nett",
+    imgUrl: "/banner_sportsforum.png",
+    title: "Sportsforum",
     description:
-      "VPN is a blog and web forum created for Vålerenga på nett. The project is created using React, Framer Motion and TailwindCSS for the frontend and Appwrite for the backend. The frontend is hosted at Vercel",
-    barPercentage: 1,
+      "Sportsforum is a discussion board application aimed at sports clubs and fan clubs. It will feature several features made specifically for this use.",
+    barPercentage: 30,
   },
 ];
 

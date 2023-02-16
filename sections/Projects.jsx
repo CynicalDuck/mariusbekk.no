@@ -27,17 +27,19 @@ const Projects = () => {
           title={<>Have a look at my projects</>}
           textStyles="text-center"
         />
-        {projects.map((project, index) => (
-          <ProjectsCard
-            key={project.id}
-            {...project}
-            index={index}
-            active={active}
-            barColor={"bg-javascript-yellow"}
-            barPercentage={project.barPercentage}
-            handleClick={setActive}
-          />
-        ))}
+        <div className="flex flex-row gap-4 flex-wrap">
+          {projects.map((project, index) => (
+            <ProjectsCard
+              key={project.id}
+              {...project}
+              index={index}
+              active={active}
+              barColor={"bg-javascript-yellow"}
+              barPercentage={project.barPercentage}
+              handleClick={setActive}
+            />
+          ))}
+        </div>
       </motion.div>
     </section>
   );
