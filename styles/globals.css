@@ -10,6 +10,38 @@
   scroll-behavior: smooth;
 }
 
+li.arrow {
+  font-family: monospace;
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+li.arrow:before {
+  content: "\25BA \0020";
+  font-size: 0.5rem;
+  position: absolute;
+  top: 6px;
+  left: -10px;
+  color: #64ffda
+}
+
+li.workList {
+  font-family: monospace;
+  list-style-type: none;
+  position: relative;
+  padding-left: 15px;
+}
+
+li.workList:before {
+  content: "\25BA \0020";
+  font-size: 0.5rem;
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  color: #64ffda
+}
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
